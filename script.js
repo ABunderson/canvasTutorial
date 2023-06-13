@@ -22,3 +22,9 @@ ctx.fillRect(75, 75, 100, 100);
 // transparent purple rectangle
 ctx.fillStyle = "rgba(255, 0, 255, 0.75)";
 ctx.fillRect(25, 100, 175, 50);
+
+// outline of rectangle
+ctx.strokeStyle = "rgb(255, 255, 255)";
+// change default line width (1 px)
+ctx.lineWidth = 5;
+ctx.strokeRect(25, 25, 175, 200);
